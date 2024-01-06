@@ -5,21 +5,34 @@ body{
 }
 .text-primary{
     color: #FD6E0A;
-   
-
-nav {
+}
+.btn-cls{
+    border-radius: 5px;
+    background: #FD6E0A ;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+nav > ul{
     display: flex;
-    flex-direction: row;
-}
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-}
-nav  li{
-    display: flex;
-    flex-direction: row;
-}
-nav li{
+    gap:20px;
+    text-decoration: none;
     list-style: none;
 }
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+}   
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+
+
