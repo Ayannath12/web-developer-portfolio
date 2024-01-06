@@ -13,9 +13,11 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 700;
+    padding: 15px 35px;
 }
 nav > ul{
     display: flex;
+    align-items: center;
     gap:20px;
     text-decoration: none;
     list-style: none;
@@ -23,7 +25,8 @@ nav > ul{
 nav{
     
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content:space-between;
 }   
 nav li{
     list-style: none;
